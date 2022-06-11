@@ -3,37 +3,40 @@
 <head>
 <meta charset="UTF-8">
 <title>Colegio Guatemala</title>
-<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="estilo.css">
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
 </head>
-<body>
+<div class="conteiner">
+<img class="colegio" src="img/colegio.png">
 <header>
-<div class="container">
-<img class="colegio" src="img/colegio.png">   
-<input type="checkbox" id="btn-menu">
-<label for="btn-menu"><img src="img/icono.png"></label>
+<input type="checkbox" id="btn-menu" />
+<label for="btn-menu"><i class="fa fa-bars"></i></label>
 <nav class="menu">
-<ul class="menu2">
+<ul>
 <li><a href="#">Inicio</a></li>
-<li><a href="#">Nosotros</a></li>
-<li><a href="#">Carreras</a>
-<ul class="submenu">
+<li class=><a href="#">Nosotros</a>
+</li>
+<li class="submenu"><a href="#">Carreras<i class="fa fa-caret-down"></i></a>
+<ul>
 <li><a href="#">Electricidad</a></li>
-<li><a href="#">Electronica</a></li>
+<li><a href="#">Electrónica</a></li>
 <li><a href="#">Arquitectura</a></li>
-<li><a href="#">Mecanica</a></li>
+<li><a href="#">Mecánica</a></li>
 </ul>
 </li>
 <li><a href="#">Contacto</a></li>
 </ul>
 </nav>
 </header>
+</div>
+<body>
 <h1>El colegio SEK Guatemala proporciona
 una educación escolar completa</h1>
 <p class="presentacion">Posee una moderna y amplia infraestructura de calidad y personal 
 capacitado para atender el aprendizaje y desarrollo de sus hijos.</p>
-<div class="news-cards">
+<div class="im">
 <div>
 <a href="#"><img src="img/col1.png"></a>
 <h3>EDUCACIÓN
@@ -54,6 +57,6 @@ SECUNDARIA</h3>
 <h3>BACHILLERATO</h3>
 </div>	
 </div> 
-</html>
 </body>
-</html>
+<script src="menu.js"></script>
+  </html>
