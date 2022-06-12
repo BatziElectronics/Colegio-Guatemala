@@ -114,7 +114,7 @@ position: static;
 position: absolute;
 right: 16px;
 display: block;
-top: 120px;
+top: 117px;
 }
 #btn-menu:checked~ .menu {
 transform: translateX(0%);
